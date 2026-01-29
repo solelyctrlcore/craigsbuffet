@@ -1148,6 +1148,7 @@
     "modName": "Craig\u0027s Buffet",
     "version": "1.0.1A",
     "author": "ctrlcore",
+    "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
