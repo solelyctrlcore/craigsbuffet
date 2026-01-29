@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.FARMLAND"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "farmland",
+    "namespace": "craigs_buffet"
+  }
+}

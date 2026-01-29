@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "craigs_buffet:blocks/onionstage1",
+    "particle": "craigs_buffet:blocks/onionstage1"
+  }
+}

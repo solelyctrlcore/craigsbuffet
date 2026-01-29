@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "craigs_buffet:blueberries"
+    }
+  ],
+  "result": {
+    "item": "craigs_buffet:blueberry_seeds",
+    "count": 3
+  }
+}

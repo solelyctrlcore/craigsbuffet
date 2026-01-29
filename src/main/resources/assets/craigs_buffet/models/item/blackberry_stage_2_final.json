@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "craigs_buffet:blocks/blackberrystage2"
+  }
+}

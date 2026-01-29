@@ -1,0 +1,1164 @@
+{
+  "mod_elements": [
+    {
+      "name": "Craigsbuffet",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craigsbuffet"
+    },
+    {
+      "name": "BushBase",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bush_base",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BushBaseAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bush_base_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Strawberry",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "Blueberries",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberries",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "Blackberry",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackberry",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "Raspberry",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "Elderberries",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elderberries",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "StrawberrySeeds",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "StrawberryCropStage0",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StrawberryCropStage1",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StrawberryCropStage2Final",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_crop_stage_2_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UniversalPlacementCondition",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StrawberryLootTable",
+      "type": "loottable",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_loot_table",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StrawberryUpdateTick",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CropBlockAdded",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Farmland",
+      "type": "tag",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmland",
+      "path": "~/Tags"
+    },
+    {
+      "name": "StrawberrySeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Seeds1",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_1",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlueberryCropStage0",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlueberryCropStage1",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlueberryCropStage2Final",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_crop_stage_2_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlueberrySeeds",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "Blueberry",
+      "type": "loottable",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "BlueberryUpdateTick",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlueberrySeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlackberrySeeds",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackberry_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "RaspberrySeeds",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "RaspberryUpdateTick",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RaspberrySeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlackberryUpdateTick",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackberry_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlackberrySeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackberry_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RaspberryCropStage0",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RaspberryCropStage1",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RaspberryCropStage2Final",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_crop_stage_2_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Seeds2",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_2",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Seeds3",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_3",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Seeds4",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_4",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlackberryCropStage0",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackberry_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlackberryCropStage1",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackberry_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlackberryStage2Final",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackberry_stage_2_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Raspberries",
+      "type": "loottable",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberries",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Blackberries",
+      "type": "loottable",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackberries",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "ElderberryCropStage0",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elderberry_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ElderberryCropStage1",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elderberry_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ElderberryCropStage2Final",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elderberry_crop_stage_2_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ElderberryUpdateTick",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elderberry_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ElderberrySeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elderberry_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ElderberrySeeds",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elderberry_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "Elderberry",
+      "type": "loottable",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elderberry",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Seeds5",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_5",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Onion",
+      "type": "food",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "Garlic",
+      "type": "food",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garlic",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "RedOnion",
+      "type": "food",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_onion",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "Asparagus",
+      "type": "food",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asparagus",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "Spinach",
+      "type": "food",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinach",
+      "path": "~/Raw Foods"
+    },
+    {
+      "name": "OnionCropStage0",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "OnionCropStage1",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "OnionCropStage2Final",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_crop_stage_2_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "OnionUpdateTick",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OnionSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OnionSeeds",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onion_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "GarlicSeeds",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garlic_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "RedOnionSeeds",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_onion_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "AsparagusSeeds",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asparagus_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "SpinachSeeds",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinach_seeds",
+      "path": "~/Seeds"
+    },
+    {
+      "name": "GarlicCropStage0",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garlic_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GarlicCropStage1",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garlic_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GarlicCropStage2Final",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garlic_crop_stage_2_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedOnionCropStage0",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_onion_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedOnionCropStage1",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_onion_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedOnionCropStage2Final",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_onion_crop_stage_2_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Onions",
+      "type": "loottable",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onions",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Garlics",
+      "type": "loottable",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garlics",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "RedOnions",
+      "type": "loottable",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_onions",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Seeds6",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_6",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Seeds7",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_7",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Seeds8",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_8",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Seeds9",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_9",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Seeds10",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_10",
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.craigs_buffet.strawberry": "Strawberries",
+      "item.craigs_buffet.blackberry_seeds": "Blackberry Seeds",
+      "item.craigs_buffet.strawberry_seeds": "Strawberry Seeds",
+      "item.craigs_buffet.asparagus": "Asparagus",
+      "block.craigs_buffet.red_onion_crop_stage_0": "Red Onions",
+      "block.craigs_buffet.red_onion_crop_stage_1": "Red Onions",
+      "block.craigs_buffet.red_onion_crop_stage_2_final": "Red Onions",
+      "item.craigs_buffet.asparagus_seeds": "Asparagus Seeds",
+      "item.craigs_buffet.onion": "Onion",
+      "item.craigs_buffet.red_onion": "Red Onion",
+      "block.craigs_buffet.bush_base": "Bush",
+      "block.craigs_buffet.blueberry_crop_stage_0": "Blueberries",
+      "block.craigs_buffet.blueberry_crop_stage_1": "Blueberries",
+      "item.craigs_buffet.garlic_seeds": "Garlic Seeds",
+      "block.craigs_buffet.strawberry_crop_stage_1": "Strawberries",
+      "block.craigs_buffet.blueberry_crop_stage_2_final": "Blueberries",
+      "block.craigs_buffet.garlic_crop_stage_2_final": "Garlic",
+      "block.craigs_buffet.raspberry_crop_stage_0": "Raspberries",
+      "item.craigs_buffet.blueberry_seeds": "Blueberry Seeds",
+      "block.craigs_buffet.raspberry_crop_stage_1": "Raspberries",
+      "itemGroup.tabcraigsbuffet": "Craig\u0027s Buffet",
+      "block.craigs_buffet.elderberry_crop_stage_2_final": "Elderberries",
+      "block.craigs_buffet.strawberry_crop_stage_2_final": "Strawberries",
+      "item.craigs_buffet.spinach": "Spinach",
+      "block.craigs_buffet.blackberry_crop_stage_1": "Blackberries",
+      "block.craigs_buffet.strawberry_crop_stage_0": "Strawberries",
+      "item.craigs_buffet.red_onion_seeds": "Red Onion Seeds",
+      "block.craigs_buffet.elderberry_crop_stage_0": "Elderberries",
+      "block.craigs_buffet.blackberry_crop_stage_0": "Blackberries",
+      "block.craigs_buffet.elderberry_crop_stage_1": "Elderberries",
+      "item.craigs_buffet.elderberry_seeds": "Raspberry Seeds",
+      "block.craigs_buffet.garlic_crop_stage_0": "Garlic",
+      "block.craigs_buffet.garlic_crop_stage_1": "Garlic",
+      "block.craigs_buffet.onion_crop_stage_0": "Onions",
+      "block.craigs_buffet.raspberry_crop_stage_2_final": "Raspberries",
+      "item.craigs_buffet.garlic": "Garlic",
+      "block.craigs_buffet.onion_crop_stage_2_final": "Onions",
+      "item.craigs_buffet.blackberry": "Blackberries",
+      "item.craigs_buffet.blueberries": "Blueberries",
+      "item.craigs_buffet.raspberry_seeds": "Raspberry Seeds",
+      "item.craigs_buffet.onion_seeds": "Onion Seeds",
+      "block.craigs_buffet.blackberry_stage_2_final": "Blackberries",
+      "item.craigs_buffet.raspberry": "Raspberries",
+      "item.craigs_buffet.elderberries": "Elderberries",
+      "block.craigs_buffet.onion_crop_stage_1": "Onions",
+      "item.craigs_buffet.spinach_seeds": "Spinach Seeds"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Crafted Foods",
+        "children": []
+      },
+      {
+        "name": "Raw Foods",
+        "children": []
+      },
+      {
+        "name": "Meats",
+        "children": []
+      },
+      {
+        "name": "Plant Blocks",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Seeds",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "craigs_buffet",
+    "modName": "Craig\u0027s Buffet",
+    "version": "1.0.1A",
+    "author": "ctrlcore",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "inspired by croptopia \u0026 pam\u0027s harvestcraft",
+    "modElementsPackage": "net.mcreator.craigsbuffet",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

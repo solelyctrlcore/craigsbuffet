@@ -1,0 +1,9 @@
+{
+  "parent": "craigs_buffet:custom/bush",
+  "textures": {
+    "all": "craigs_buffet:blocks/bush",
+    "particle": "craigs_buffet:blocks/bush",
+    "1": "craigs_buffet:blocks/leaves",
+    "3": "craigs_buffet:blocks/stick"
+  }
+}

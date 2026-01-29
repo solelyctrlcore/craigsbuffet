@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "craigs_buffet:strawberry"
+    }
+  ],
+  "result": {
+    "item": "craigs_buffet:strawberry_seeds",
+    "count": 3
+  }
+}

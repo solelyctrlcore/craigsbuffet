@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "craigs_buffet:blocks/raspberrystage0",
+    "particle": "craigs_buffet:blocks/raspberrystage0"
+  }
+}

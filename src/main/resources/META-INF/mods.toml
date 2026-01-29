@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="craigs_buffet"
+version="1.0.1A"
+displayName="Craig's Buffet"
+credits="inspired by croptopia & pam's harvestcraft"
+displayURL="https://mcreator.net"
+authors="ctrlcore"
+
+[[dependencies.craigs_buffet]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

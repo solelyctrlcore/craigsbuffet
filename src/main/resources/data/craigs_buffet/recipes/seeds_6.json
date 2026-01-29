@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "craigs_buffet:onion"
+    }
+  ],
+  "result": {
+    "item": "craigs_buffet:onion_seeds",
+    "count": 3
+  }
+}

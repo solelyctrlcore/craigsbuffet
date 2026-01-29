@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "craigs_buffet:spinach"
+    }
+  ],
+  "result": {
+    "item": "craigs_buffet:spinach_seeds",
+    "count": 2
+  }
+}

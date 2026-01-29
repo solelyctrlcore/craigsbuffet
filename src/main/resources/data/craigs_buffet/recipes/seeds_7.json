@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "craigs_buffet:garlic"
+    }
+  ],
+  "result": {
+    "item": "craigs_buffet:garlic_seeds",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "craigs_buffet:elderberries"
+    }
+  ],
+  "result": {
+    "item": "craigs_buffet:elderberry_seeds",
+    "count": 3
+  }
+}

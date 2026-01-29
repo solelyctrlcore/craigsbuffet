@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "leaves",
+        "3": "stick"
+      },
+      "name": "default"
+    }
+  }
+}

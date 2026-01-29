@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "craigs_buffet:blocks/garlicstage2final",
+    "particle": "craigs_buffet:blocks/garlicstage2final"
+  }
+}
