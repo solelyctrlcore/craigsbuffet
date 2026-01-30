@@ -125,7 +125,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "ElderberryUpdateTick"
+      "name": "GarlicUpdateTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

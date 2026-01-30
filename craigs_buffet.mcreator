@@ -1028,74 +1028,402 @@
       "path": "~/Recipes"
     },
     {
-      "name": "Seeds9",
-      "type": "recipe",
-      "sortid": 80,
+      "name": "AsparagusCropStage0",
+      "type": "block",
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "seeds_9",
-      "path": "~/Recipes"
+      "registry_name": "asparagus_crop_stage_0",
+      "path": "~/Blocks"
     },
     {
-      "name": "Seeds10",
-      "type": "recipe",
-      "sortid": 81,
+      "name": "AsparagusCropStage1",
+      "type": "block",
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "seeds_10",
-      "path": "~/Recipes"
+      "registry_name": "asparagus_crop_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AsparagusCropStage2",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asparagus_crop_stage_2",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AsparagusCropStage3Final",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asparagus_crop_stage_3_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SpinachCropStage0",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinach_crop_stage_0",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SpinachStage1",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinach_stage_1",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SpinachCropStage2",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinach_crop_stage_2",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SpinachCropStage3Final",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinach_crop_stage_3_final",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GarlicUpdateTick",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garlic_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GarlicSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garlic_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RedOnionUpdateTick",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_onion_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RedOnionSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_onion_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AsparagusUpdateTick",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asparagus_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AsparagusSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asparagus_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SpinachUpdateTick",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinach_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SpinachSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinach_seeds_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Asparaguses",
+      "type": "loottable",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asparaguses",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Spinaches",
+      "type": "loottable",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinaches",
+      "path": "~/Loot Tables"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.craigs_buffet.strawberry": "Strawberries",
-      "item.craigs_buffet.blackberry_seeds": "Blackberry Seeds",
       "item.craigs_buffet.strawberry_seeds": "Strawberry Seeds",
       "item.craigs_buffet.asparagus": "Asparagus",
       "block.craigs_buffet.red_onion_crop_stage_0": "Red Onions",
       "block.craigs_buffet.red_onion_crop_stage_1": "Red Onions",
       "block.craigs_buffet.red_onion_crop_stage_2_final": "Red Onions",
-      "item.craigs_buffet.asparagus_seeds": "Asparagus Seeds",
-      "item.craigs_buffet.onion": "Onion",
-      "item.craigs_buffet.red_onion": "Red Onion",
-      "block.craigs_buffet.bush_base": "Bush",
-      "block.craigs_buffet.blueberry_crop_stage_0": "Blueberries",
-      "block.craigs_buffet.blueberry_crop_stage_1": "Blueberries",
+      "block.craigs_buffet.spinach_stage_1": "Spinach",
       "item.craigs_buffet.garlic_seeds": "Garlic Seeds",
       "block.craigs_buffet.strawberry_crop_stage_1": "Strawberries",
-      "block.craigs_buffet.blueberry_crop_stage_2_final": "Blueberries",
       "block.craigs_buffet.garlic_crop_stage_2_final": "Garlic",
       "block.craigs_buffet.raspberry_crop_stage_0": "Raspberries",
-      "item.craigs_buffet.blueberry_seeds": "Blueberry Seeds",
       "block.craigs_buffet.raspberry_crop_stage_1": "Raspberries",
-      "itemGroup.tabcraigsbuffet": "Craig\u0027s Buffet",
       "block.craigs_buffet.elderberry_crop_stage_2_final": "Elderberries",
       "block.craigs_buffet.strawberry_crop_stage_2_final": "Strawberries",
       "item.craigs_buffet.spinach": "Spinach",
       "block.craigs_buffet.blackberry_crop_stage_1": "Blackberries",
       "block.craigs_buffet.strawberry_crop_stage_0": "Strawberries",
       "item.craigs_buffet.red_onion_seeds": "Red Onion Seeds",
-      "block.craigs_buffet.elderberry_crop_stage_0": "Elderberries",
       "block.craigs_buffet.blackberry_crop_stage_0": "Blackberries",
-      "block.craigs_buffet.elderberry_crop_stage_1": "Elderberries",
-      "item.craigs_buffet.elderberry_seeds": "Raspberry Seeds",
       "block.craigs_buffet.garlic_crop_stage_0": "Garlic",
       "block.craigs_buffet.garlic_crop_stage_1": "Garlic",
       "block.craigs_buffet.onion_crop_stage_0": "Onions",
       "block.craigs_buffet.raspberry_crop_stage_2_final": "Raspberries",
-      "item.craigs_buffet.garlic": "Garlic",
       "block.craigs_buffet.onion_crop_stage_2_final": "Onions",
       "item.craigs_buffet.blackberry": "Blackberries",
-      "item.craigs_buffet.blueberries": "Blueberries",
-      "item.craigs_buffet.raspberry_seeds": "Raspberry Seeds",
-      "item.craigs_buffet.onion_seeds": "Onion Seeds",
-      "block.craigs_buffet.blackberry_stage_2_final": "Blackberries",
       "item.craigs_buffet.raspberry": "Raspberries",
       "item.craigs_buffet.elderberries": "Elderberries",
       "block.craigs_buffet.onion_crop_stage_1": "Onions",
-      "item.craigs_buffet.spinach_seeds": "Spinach Seeds"
+      "block.craigs_buffet.spinach_crop_stage_3_final": "Spinach",
+      "item.craigs_buffet.spinach_seeds": "Spinach Seeds",
+      "block.craigs_buffet.asparagus_crop_stage_3_final": "Asparagus",
+      "item.craigs_buffet.strawberry": "Strawberries",
+      "item.craigs_buffet.blackberry_seeds": "Blackberry Seeds",
+      "item.craigs_buffet.asparagus_seeds": "Asparagus Seeds",
+      "item.craigs_buffet.onion": "Onion",
+      "item.craigs_buffet.red_onion": "Red Onion",
+      "block.craigs_buffet.asparagus_crop_stage_1": "Asparagus",
+      "block.craigs_buffet.bush_base": "Bush",
+      "block.craigs_buffet.asparagus_crop_stage_2": "Asparagus",
+      "block.craigs_buffet.blueberry_crop_stage_0": "Blueberries",
+      "block.craigs_buffet.blueberry_crop_stage_1": "Blueberries",
+      "block.craigs_buffet.asparagus_crop_stage_0": "Asparagus",
+      "block.craigs_buffet.blueberry_crop_stage_2_final": "Blueberries",
+      "item.craigs_buffet.blueberry_seeds": "Blueberry Seeds",
+      "block.craigs_buffet.spinach_crop_stage_2": "Spinach",
+      "itemGroup.tabcraigsbuffet": "Craig\u0027s Buffet",
+      "block.craigs_buffet.spinach_crop_stage_0": "Spinach",
+      "block.craigs_buffet.elderberry_crop_stage_0": "Elderberries",
+      "block.craigs_buffet.elderberry_crop_stage_1": "Elderberries",
+      "item.craigs_buffet.elderberry_seeds": "Raspberry Seeds",
+      "item.craigs_buffet.garlic": "Garlic",
+      "item.craigs_buffet.blueberries": "Blueberries",
+      "item.craigs_buffet.raspberry_seeds": "Raspberry Seeds",
+      "item.craigs_buffet.onion_seeds": "Onion Seeds",
+      "block.craigs_buffet.blackberry_stage_2_final": "Blackberries"
     }
   },
   "foldersRoot": {

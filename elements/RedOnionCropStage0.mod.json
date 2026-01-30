@@ -128,7 +128,7 @@
       "name": "CropBlockAdded"
     },
     "onTickUpdate": {
-      "name": "ElderberryUpdateTick"
+      "name": "RedOnionUpdateTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

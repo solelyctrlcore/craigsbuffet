@@ -55,7 +55,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.craigsbuffet.procedures.UniversalPlacementConditionProcedure;
-import net.mcreator.craigsbuffet.procedures.ElderberryUpdateTickProcedure;
+import net.mcreator.craigsbuffet.procedures.RedOnionUpdateTickProcedure;
 import net.mcreator.craigsbuffet.procedures.CropBlockAddedProcedure;
 import net.mcreator.craigsbuffet.item.RedOnionSeedsItem;
 import net.mcreator.craigsbuffet.CraigsBuffetModElements;
@@ -186,7 +186,7 @@ public class RedOnionCropStage0Block extends CraigsBuffetModElements.ModElement 
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			ElderberryUpdateTickProcedure.executeProcedure(Stream
+			RedOnionUpdateTickProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));

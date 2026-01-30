@@ -14,7 +14,7 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.craigsbuffet.procedures.OnionSeedsRightClickedOnBlockProcedure;
+import net.mcreator.craigsbuffet.procedures.RedOnionSeedsRightClickedOnBlockProcedure;
 import net.mcreator.craigsbuffet.itemgroup.CraigsbuffetItemGroup;
 import net.mcreator.craigsbuffet.CraigsBuffetModElements;
 
@@ -71,7 +71,7 @@ public class RedOnionSeedsItem extends CraigsBuffetModElements.ModElement {
 			int z = pos.getZ();
 			ItemStack itemstack = context.getItem();
 
-			OnionSeedsRightClickedOnBlockProcedure.executeProcedure(Stream
+			RedOnionSeedsRightClickedOnBlockProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
