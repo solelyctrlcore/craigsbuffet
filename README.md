@@ -2,6 +2,7 @@ CRAIG'S BUFFET -- V1.0.1 ALPHA
 
 current crops + raw form foods:
 > strawberries
+> 
 > blueberries
 > blackberries
 > raspberries
